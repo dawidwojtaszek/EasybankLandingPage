@@ -1,0 +1,51 @@
+.container{
+    max-width: $desktop-container;
+    margin:auto;
+}
+
+.btn-primary{
+    width: 165px;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    padding: 16px 36px;
+    color: #fff;
+    font-weight: 700;
+    background: rgb(49,211,92);
+    background: linear-gradient(90deg, rgba(49,211,92,1) 0%, rgba(43,183,208,1) 100% );
+    &:hover{
+        opacity: 0.7;
+    }
+}
+
+.btn-hamburger{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: none;
+    padding:7px;
+    margin-right: 30px;
+    display: none;
+    @media(max-width:800px){
+        display: block;
+    }
+}
+.paragraph-gray{
+    color:$grayish-blue;
+    line-height: 1.6;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: 400;
+    color:$dark-blue;
+    
+}
+.flex-space-between{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}

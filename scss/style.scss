@@ -1,0 +1,20 @@
+@import 'config';
+@import 'header';
+@import 'utilities';
+@import 'mobile';
+@import 'hero';
+@import 'benefits';
+@import 'articles';
+@import 'footer';
+//Reset 
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Public Sans', sans-serif;
+}
+// Font import
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+
+body{
+    background-color: $light-grayish-blue;
+}
