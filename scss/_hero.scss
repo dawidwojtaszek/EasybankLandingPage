@@ -1,6 +1,7 @@
 .hero{
     width: 100%;
     position: relative;
+    background-color: $very-light-gray;
     @media (max-width:1300px){
         overflow: hidden;
     }
@@ -21,7 +22,7 @@
     position:absolute;
     top:0;
     right: 0;
-    background-image: url('/dist/images/bg-intro-desktop.svg');
+    background-image: url('./images/bg-intro-desktop.svg');
     background-position: 10% 110%;
     background-repeat:no-repeat;
     & img{
