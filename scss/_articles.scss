@@ -1,8 +1,12 @@
 .article-section{
+    background-color: $very-light-gray;
     margin-top: 200px;
+    padding-top:70px;
+    padding-bottom: 100px;
     @media(max-width:800px){
         margin-top: 50px;
         text-align: center;
+        padding-bottom: 0;
     }
 }
 .articles-box{

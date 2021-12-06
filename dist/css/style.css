@@ -304,14 +304,14 @@ header {
   position: absolute;
   top: 0;
   right: 0;
-  background-image: url("./images/bg-intro-desktop.svg");
+  background-image: url("../images/bg-intro-desktop.svg");
   background-position: 10% 110%;
   background-repeat: no-repeat;
 }
 
 .image-box img {
-  -o-object-position: 110px -110px;
-     object-position: 110px -110px;
+  -o-object-position: 110px -120px;
+     object-position: 110px -120px;
 }
 
 @media (max-width: 1300px) {
@@ -347,7 +347,7 @@ header {
       -ms-flex-direction: column;
           flex-direction: column;
   max-width: 450px;
-  height: 750px;
+  height: 700px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -439,12 +439,14 @@ header {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-top: 40px;
+  padding-top: 50px;
 }
 
 @media (max-width: 800px) {
   .benefits-section {
     margin-top: 0;
     text-align: center;
+    padding-top: 0;
   }
 }
 
@@ -510,13 +512,17 @@ header {
 }
 
 .article-section {
+  background-color: #fafafa;
   margin-top: 200px;
+  padding-top: 70px;
+  padding-bottom: 100px;
 }
 
 @media (max-width: 800px) {
   .article-section {
     margin-top: 50px;
     text-align: center;
+    padding-bottom: 0;
   }
 }
 
@@ -605,7 +611,6 @@ header {
   background-color: #2d314d;
   color: #fff;
   min-height: 190px;
-  margin-top: 100px;
 }
 
 .footer-container {
